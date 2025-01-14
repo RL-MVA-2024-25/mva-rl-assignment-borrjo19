@@ -181,7 +181,7 @@ class ProjectAgent:
         self.model.load_state_dict(torch.load(f"{os.getcwd()}/" + self.model_name + '.pth', map_location='cpu'))#f"{os.getcwd()}/src/" + self.model_name + '.pth', map_location='cpu')
         self.model.eval()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     config = {
         'model_name': 'best_agent', 
         'max_episode': 1500,
