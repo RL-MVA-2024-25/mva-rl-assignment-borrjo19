@@ -184,7 +184,7 @@ class ProjectAgent:
 if _name_ == "_main_":
     config = {
         'model_name': 'best_agent', 
-        'max_episode': 1000,
+        'max_episode': 1500,
         'hidden_size': 256,
         'depth': 5,
     }
